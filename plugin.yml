@@ -1,0 +1,9 @@
+name: CustomEnchantUI
+version: 1.0.0
+author: LunarMoon72
+api: 3.21.1
+mcpe-protocal: 448
+
+commands:
+   ceedit:
+      description: Enchant the Item you Holding!
