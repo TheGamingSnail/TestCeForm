@@ -30,6 +30,11 @@ class Main extends PluginBase
 
        }
     }
+    if($sender->hasPermission("customenchantui.cmd")){
+        $this->ceui($sender);
+    } else {
+        $sender->sendMessage("§cYou do not have permission to use this command.");
+    }
   return true;
   }
   public function ceui($player){
