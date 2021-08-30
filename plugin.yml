@@ -3,6 +3,7 @@ version: 1.0.0
 author: LunarMoon72
 api: 3.21.1
 mcpe-protocal: 448
+main: LunarMoon72\CustomEnchantUI\Main
 
 commands:
    ceedit:
