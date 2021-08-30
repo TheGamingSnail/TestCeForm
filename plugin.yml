@@ -8,3 +8,9 @@ main: LunarMoon72\CustomEnchantUI\Main
 commands:
    ceedit:
       description: Enchant the Item you Holding!
+      permission: customenchantui.cmd
+      
+permissions:
+   customenchantui.cmd:
+       description: Test Perm
+       default: op
