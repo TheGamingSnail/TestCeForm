@@ -25,6 +25,7 @@ class Main extends PluginBase
        {
         $this->ceui($sender);
        } else {
+        $this->getLogger()->info("You cannot do this in Console!");
         return true;
 
        }
@@ -34,6 +35,7 @@ class Main extends PluginBase
   public function ceui($player){
   	$form = $this->getServer()->getPluginManager()->getPlugin("FormAPI")->createCustomForm(function(Player $player, int $data = null){
         if($data === null){
+
             return true;
         }
         switch($data){
