@@ -25,7 +25,7 @@ class Main extends PluginBase
        {
         $this->ceui($sender);
        } else {
-        $this->getLogger()->info("You cannot do this in Console!");
+        $this->getLogger()->info("You cannot do this in console!");
         return true;
 
        }
