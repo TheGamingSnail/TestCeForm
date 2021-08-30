@@ -38,7 +38,7 @@ class Main extends PluginBase
   return true;
   }
   public function ceui($player){
-  	$form = $this->getServer()->getPluginManager()->getPlugin("FormAPI")->createCustomForm(function(Player $player, int $data = null){
+  	$form = $this->getServer()->getPluginManager()->getPlugin("FormAPI")->createSimpleForm(function(Player $player, int $data = null){
         if($data === null){
 
             return true;
